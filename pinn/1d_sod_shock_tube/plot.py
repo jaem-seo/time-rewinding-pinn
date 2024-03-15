@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sodshock
 
-saved_path = "saved_model-20005.ckpt"
+saved_path = "saved_model-3005.ckpt"
 
 # Set hyperparameters
 n_output = 3 # rho, u, energy
@@ -15,7 +15,7 @@ num_boundary = 100
 num_initial = 1000
 
 n_adam = 0
-n_lbfgs = 20000
+n_lbfgs = 3000
 n_repeat = 1
 
 lr = 1e-3 # for Adam

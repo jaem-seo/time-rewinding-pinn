@@ -21,7 +21,7 @@ num_boundary = 100
 num_initial = 1000
 
 n_adam = 0
-n_lbfgs = 20000
+n_lbfgs = 3000
 n_repeat = 1
 
 lr = 1e-3 # for Adam
